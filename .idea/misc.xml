@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/NAM_III/LATRINHDIDONG/VoThiTraGiang_19510771_BTTH_Tuan4_bai4b/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/NAM_III/LATRINHDIDONG/VoThiTraGiang_19510771_BTTH_Tuan4_bai4b/app/src/main/res/layout/activity_main2.xml" value="0.209375" />
+        <entry key="..\:/NAM_III/LATRINHDIDONG/VoThiTraGiang_19510771_BTTH_Tuan4_bai4b/app/src/main/res/layout/item_custom_grid_view.xml" value="0.75" />
+        <entry key="..\:/NAM_III/LATRINHDIDONG/VoThiTraGiang_19510771_BTTH_Tuan4_bai4b/app/src/main/res/layout/item_custome_grid_view.xml" value="0.209375" />
+        <entry key="..\:/NAM_III/LATRINHDIDONG/VoThiTraGiang_19510771_BTTH_Tuan4_bai4b/app/src/main/res/layout/item_grid_view.xml" value="0.1953125" />
+        <entry key="..\:/NAM_III/LATRINHDIDONG/VoThiTraGiang_19510771_BTTH_Tuan4_bai4b/app/src/main/res/menu/main_action.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

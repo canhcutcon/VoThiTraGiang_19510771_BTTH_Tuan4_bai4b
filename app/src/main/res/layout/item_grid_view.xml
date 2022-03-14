@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idLinearLayout2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:paddingStart="12dp"
+    android:paddingLeft="12dp"
+    android:paddingTop="12dp"
+    android:paddingEnd="12dp"
+    android:paddingRight="12dp"
+    android:paddingBottom="12dp">
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="155dp"
+        android:layout_height="90dp"
+        android:contentDescription="@null"
+        android:gravity="center"
+        android:src="@drawable/dauchuyendoi_1" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <TextView
+            android:id="@+id/textProductName2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RatingBar
+            android:id="@+id/ratingBar3"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="77dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:rating="5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textProductName2"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textDiscountPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ratingBar3" />
+
+        <TextView
+            android:id="@+id/textDiscount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="@+id/textDiscountPrice"
+            app:layout_constraintStart_toEndOf="@+id/textDiscountPrice"
+            app:layout_constraintTop_toTopOf="@+id/textDiscountPrice"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
